@@ -1,0 +1,3 @@
+nefertitis_armband_modifier = {
+	attraction_opinion = 10
+}

@@ -1,0 +1,40 @@
+﻿beauty_enhanced_traits_likelihood = {
+    default = beauty_enhanced_traits_likelihood_normal_rarity
+
+	categories = {
+		tweaks 
+	}
+
+	beauty_enhanced_traits_likelihood_traits_off = {
+
+	}
+
+	beauty_enhanced_traits_likelihood_more_common_rarity = {
+
+	}
+
+	beauty_enhanced_traits_likelihood_normal_rarity = {
+		
+	}
+
+	beauty_enhanced_traits_likelihood_extra_rare = {
+		
+	}
+
+}
+
+women_not_morphed_by_beauty_trait = {
+    default = no_beauty_disabled
+
+	categories = {
+		tweaks 
+	}
+
+	no_beauty_enabled = {
+		
+	}
+
+	no_beauty_disabled = {
+		
+	}
+}

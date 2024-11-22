@@ -1,0 +1,19 @@
+﻿three_year_playable_pulse = {
+	on_actions = {
+		mysterious_vendor_pulse
+	}
+}
+
+mysterious_vendor_pulse = {
+	trigger = {
+		NOT= {
+			has_global_variable = mysterious_vendor_visited
+		}
+		is_ai = no
+		has_normal_beauty_trait = yes
+	}
+	effect = {
+		debug_log = "mysterious_vendor_pulse"
+		trigger_event = elf_dest_beaut_enh_artifact.101
+	}
+}

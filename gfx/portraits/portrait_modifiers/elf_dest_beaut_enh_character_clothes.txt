@@ -1,0 +1,24 @@
+﻿elf_dest_beaut_enh_special_clothes = {
+	black_market_merchant = {
+		# trigger = {
+        #     always = yes
+		# }
+		dna_modifiers = {
+            accessory = {
+                mode = add 
+                gene = special_headgear_face_mask
+                template = face_mask
+                range = { 0 1 }
+            }
+		}
+        weight = {
+            base = 0
+
+            modifier = {
+                add = 100
+
+				has_character_flag = black_market_merchant
+            }
+        }
+	}
+}
