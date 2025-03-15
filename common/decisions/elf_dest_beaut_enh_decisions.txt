@@ -153,138 +153,138 @@ adopt_ancient_egyptian_culture_decision = {
 
 # DEBUGGING DECISIONS
 
-give_wives_beauty_3 = {
-	desc = "elf_debug_menu_desc"
-	selection_tooltip = "elf_debug_menu_tooltip"
+# give_wives_beauty_3 = {
+# 	desc = "elf_debug_menu_desc"
+# 	selection_tooltip = "elf_debug_menu_tooltip"
 	
-	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_upgrade_beauty_type.dds"
-	}
+# 	picture = {
+# 		reference = "gfx/interface/illustrations/decisions/decision_upgrade_beauty_type.dds"
+# 	}
 
-	decision_group_type = debug
+# 	decision_group_type = debug
 
-	is_shown = {
-		is_ai = no
-	}
+# 	is_shown = {
+# 		is_ai = no
+# 	}
 
-	ai_goal = no
-	ai_will_do = {
-		value = 0
-	}
-	ai_potential = {
-		always = no
-	}
-	ai_check_interval = 0
+# 	ai_goal = no
+# 	ai_will_do = {
+# 		value = 0
+# 	}
+# 	ai_potential = {
+# 		always = no
+# 	}
+# 	ai_check_interval = 0
 
-	effect = {
-		every_consort = {
-			add_trait = beauty_good_3
-		}
-	}
-}
+# 	effect = {
+# 		every_consort = {
+# 			add_trait = beauty_good_3
+# 		}
+# 	}
+# }
 
-give_self_unconventional = {
-	desc = "elf_debug_menu_desc"
-	selection_tooltip = "elf_debug_menu_tooltip"
+# give_self_unconventional = {
+# 	desc = "elf_debug_menu_desc"
+# 	selection_tooltip = "elf_debug_menu_tooltip"
 	
-	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_upgrade_beauty_type.dds"
-	}
+# 	picture = {
+# 		reference = "gfx/interface/illustrations/decisions/decision_upgrade_beauty_type.dds"
+# 	}
 
-	decision_group_type = debug
+# 	decision_group_type = debug
 
-	is_shown = {
-		is_ai = no
-	}
+# 	is_shown = {
+# 		is_ai = no
+# 	}
 
-	ai_goal = no
-	ai_will_do = {
-		value = 0
-	}
-	ai_potential = {
-		always = no
-	}
-	ai_check_interval = 0
+# 	ai_goal = no
+# 	ai_will_do = {
+# 		value = 0
+# 	}
+# 	ai_potential = {
+# 		always = no
+# 	}
+# 	ai_check_interval = 0
 
-	effect = {
-		remove_all_beauty_traits = yes
-		add_trait = unconventional_beauty_good_3
-	}
-}
+# 	effect = {
+# 		remove_all_beauty_traits = yes
+# 		add_trait = unconventional_beauty_good_3
+# 	}
+# }
 
 
-give_self_exotic = {
-	desc = "elf_debug_menu_desc"
-	selection_tooltip = "elf_debug_menu_tooltip"
+# give_self_exotic = {
+# 	desc = "elf_debug_menu_desc"
+# 	selection_tooltip = "elf_debug_menu_tooltip"
 	
-	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_upgrade_beauty_type.dds"
-	}
+# 	picture = {
+# 		reference = "gfx/interface/illustrations/decisions/decision_upgrade_beauty_type.dds"
+# 	}
 
-	decision_group_type = debug
+# 	decision_group_type = debug
 
-	is_shown = {
-		is_ai = no
-	}
+# 	is_shown = {
+# 		is_ai = no
+# 	}
 
-	ai_goal = no
-	ai_will_do = {
-		value = 0
-	}
-	ai_potential = {
-		always = no
-	}
-	ai_check_interval = 0
+# 	ai_goal = no
+# 	ai_will_do = {
+# 		value = 0
+# 	}
+# 	ai_potential = {
+# 		always = no
+# 	}
+# 	ai_check_interval = 0
 
-	effect = {
-		add_trait = exotic_beauty_good_3
-	}
-}
+# 	effect = {
+# 		add_trait = exotic_beauty_good_3
+# 	}
+# }
 
-prego_pop = {
-	desc = "elf_debug_menu_desc"
-	selection_tooltip = "elf_debug_menu_tooltip"
+# prego_pop = {
+# 	desc = "elf_debug_menu_desc"
+# 	selection_tooltip = "elf_debug_menu_tooltip"
 	
-	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_upgrade_beauty_type.dds"
-	}
+# 	picture = {
+# 		reference = "gfx/interface/illustrations/decisions/decision_upgrade_beauty_type.dds"
+# 	}
 
-	decision_group_type = debug
+# 	decision_group_type = debug
 
-	is_shown = {
-		is_ai = no
-	}
+# 	is_shown = {
+# 		is_ai = no
+# 	}
 
-	ai_goal = no
-	ai_will_do = {
-		value = 0
-	}
-	ai_potential = {
-		always = no
-	}
-	ai_check_interval = 0
+# 	ai_goal = no
+# 	ai_will_do = {
+# 		value = 0
+# 	}
+# 	ai_potential = {
+# 		always = no
+# 	}
+# 	ai_check_interval = 0
 
-	effect = {
-		every_consort = {
-			limit = {
-				NOT = {
-					has_trait = pregnant
-				}
-			}
+# 	effect = {
+# 		every_consort = {
+# 			limit = {
+# 				NOT = {
+# 					has_trait = pregnant
+# 				}
+# 			}
 
-			make_pregnant = {
-				father = root
-			}
+# 			make_pregnant = {
+# 				father = root
+# 			}
 
-			# set_num_pregnancy_children = 10
-		}
+# 			# set_num_pregnancy_children = 10
+# 		}
 
-		every_consort = {
-			limit = {
-				has_trait = pregnant
-			}
+# 		every_consort = {
+# 			limit = {
+# 				has_trait = pregnant
+# 			}
 
-			set_num_pregnancy_children = 10
-		}
-	}
-}
+# 			set_num_pregnancy_children = 10
+# 		}
+# 	}
+# }
