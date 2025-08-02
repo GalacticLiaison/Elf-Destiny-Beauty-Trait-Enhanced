@@ -18,6 +18,7 @@ has_normal_beauty_trait = {
 		has_trait = beauty_good_1
 		has_trait = beauty_good_2
 		has_trait = beauty_good_3
+		has_trait = beauty_good_4
 	}
 }
 
