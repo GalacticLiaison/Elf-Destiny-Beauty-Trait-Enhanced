@@ -107,6 +107,12 @@ adopt_ancient_egyptian_culture_decision = {
 	is_shown = {
 		is_ai = no
 		has_character_flag = queen_nefertiti
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_adopt_ancient_egyptian
+			}
+		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -145,6 +151,13 @@ adopt_ancient_egyptian_culture_decision = {
 		}
 		add_character_modifier = {
 			modifier = resurrected_pharaoh_modifier
+		}
+
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_adopt_ancient_egyptian
+			}
 		}
 	}
 }

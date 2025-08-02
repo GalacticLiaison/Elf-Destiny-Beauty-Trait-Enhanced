@@ -444,7 +444,6 @@ beauty_good_3 = {
 	
 	diplomacy = 3
 	fertility = 0.3
-	
 	attraction_opinion = 30
 
 	group = beauty_good
@@ -476,12 +475,18 @@ beauty_good_3 = {
 beauty_good_4 = {
 	potential = {
 		trigger_if = {
-			limit = { exists = root }
+			limit = {
+				has_global_variable = character_creation_ended
+			}
 			OR = {
-				dynasty = {
-					has_dynasty_modifier = strong_blood
+				any_parent = {
+					OR = {
+						has_trait = beauty_good_4
+						dynasty = {
+							has_dynasty_modifier = strong_blood
+						}
+					}
 				}
-				# portrait_ruler_designer_trigger = yes
 			}
 		}
 	}

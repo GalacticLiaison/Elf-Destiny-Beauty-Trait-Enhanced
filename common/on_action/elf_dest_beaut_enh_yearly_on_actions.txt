@@ -17,3 +17,18 @@ mysterious_vendor_pulse = {
 		trigger_event = elf_dest_beaut_enh_artifact.101
 	}
 }
+
+on_game_start_after_lobby = {
+	on_actions = {
+		set_character_creation_ended
+	}
+}
+
+set_character_creation_ended = {
+	effect = {
+		set_global_variable = {
+            name = character_creation_ended
+            value = yes
+        }
+	}
+}
